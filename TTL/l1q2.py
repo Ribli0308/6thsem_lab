@@ -1,4 +1,4 @@
-a, b = 10, 5
+a, b = 10, 3
 print("num1 and num2 are")
 print(a, b)
 prod = a * b
