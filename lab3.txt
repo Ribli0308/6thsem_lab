@@ -1,0 +1,21 @@
+STRING:
+* s = 'hello'
+  print(type(s))
+* strings are immutable
+* reference can be changed object cannot be changed
+* if s = 'welcome'
+  del s[3] --> not possible, but del s possible.
+* +, *, [], :, in, not in, r/r
+* print(r"hello \n how are you") --> prints the string as it is
+* print("string is %s"%(s))
+ASSIGNMENT:
+1. wap to print the following series: n n-2 n-4 ......
+2. wap to input a string and display it, also find its length.
+3. wap to input a string and display its reverse.
+4. wap to check the given string is palindrome or not.
+5. wap to retrive the substring of a string.
+6. wap to input two strings and concat them also repeat a particular string for n number of times. 
+7. wap to check a particular substring is availbale within a string or not, also print the given string as it is.
+8. wap to enter three strings and try to delete one of the strings, also check the type of the strings and the address of the strings.[id(string)] 
+9. wap to implement some of the escape sequence characters.
+10. wap to demonstrate the predefined string functions.

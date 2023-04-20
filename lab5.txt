@@ -1,0 +1,31 @@
+SET:
+*myset1 = {5, 6, 7, 8, 9}
+*myset2 = set()
+*myset1.add(12)
+*myset1.update([20, 30]) --> set of elements will be appended at the end of the set
+*remove() --> throws error if element is not present
+*update() --> doesn't throw error
+*myset1.clear() --> delete all elements of the set
+*union() | --> myset3 = myset1 | myset2, myset1.union(myset2)
+*intersection() &
+*differnece() add()
+*n = int(input("Specify size"))
+ myset = set()
+ for i in range(n):
+  myset.add(int(input("enetr element")))
+DICTIONARY:
+*mydict = {"Name": "D", "Roll": 20051068, "CGPA": 5.5}
+ print("The roll is: %d" %mydict["Roll"])
+ mydict["Dept"] = "CSE"
+*mydict2 = {}
+ASSIGNMENT:
+1. wap to check if 2 given sets have common element or not.
+2. wap to perform union, intersection, set difference on two sets.
+3. wap to check an entered value is present in the set or not.
+4. wap that finds all pairs of elements in a list whose sum is equal to a given value.
+5. wap to mult all the elements present in a dictionary.
+6. wap to merge two dictionaries.
+7. wap to sort a given dict by its key.
+8. wap to print all distinct values present in a dict.
+9. wap to convert a dict into a list of lists.
+

@@ -1,0 +1,44 @@
+LIST:
+*mutable
+*[start: stop: step]
+*list.remove(element)
+*list1 + list2, list1*3
+*list1 = []
+ n = int(input("specify elements"))
+ for i in range(0, n):
+   k = int(input("enter element"))
+   list1.append(k)
+ for elem in list1:
+   print(elem)
+TUPLE:
+*immutable
+*tup = (1, 2, 3, 4, 5, 6, 7)
+ tup.count(3)
+*tup[3], tup[1:4]
+*tup2 = 'hello'
+*tup3 = 7, 3, 9
+*del tup --> to delete an entire tuple
+*list1 = ()
+ n = int(input("specify elements"))
+ for i in range(0, n):
+   k = int(input("enter element"))
+   list1.append(k)
+ for elem in list1:
+   print(elem)
+*tupp = ('hello', 7, [1, 2, 3], 4.7)
+ tupp[1] = 15 --> invalid
+ tup[2][0] = 8 --> valid
+ ASSIGNMENT:
+ 1. WAP to get the second samllest and second largest elem present in a list.
+ 2. WAP to remove duplicates from a list.
+ 3. wap to find out the index of an elem in a specified list.
+ 4. wap to append a list to the second list.
+ 5. wap to change the pos of every nth element with n + 1 element in the list.
+ 6. wap to remove the kth elem and print the updated list.
+ 7. wap to print a specified list after removing second and fifth index elem.
+ 8. wap to convert a list to a tupple.
+ 9. wap to find out mult of all the nums in a given tuple.
+ 10. wap to convert a tuple of strings to int values.
+ 11. wap to check the freq of a specific elem within a tuple.
+ 12. wap to create a tuple with nested tuple and list and access and print the elem of nested tiple and list.
+ 

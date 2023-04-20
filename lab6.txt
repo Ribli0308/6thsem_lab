@@ -1,0 +1,29 @@
+FUNCTION:
+def myFunc(a, b):
+    print("a = ", a, "b = ", b)
+*Variable length arguments:
+ *args -> for non-keyword arguments
+ **args -> for keyword arguments
+ def function(*a):
+    print(a[2])
+    print(a)
+
+ function([1, 2], [3, 4], 5, 6)
+
+ def func(**a):
+    print(a["name"])
+
+ func(roll = 104, name = "abc")
+*anonymous function/ lambda:
+ lanbda arguments: expression
+ r = lambda a: a * a
+ print(r(5))
+*empty function:
+ def emptyFunc():
+    pass
+ASSIGNMENT:
+1. wap to calculate simple interest of the given ptr using function where the function takes the default value for r.
+2. wap to pass a list to a func, now func adds 3 to each and every element to the list and then prints the updated list in the func calling part.
+3. wap to pass a number to a func, then print 1, 2, 3, 4 ..n using recursion.
+4. wap to generate a multiplication table of any number using lambda function.
+5. wap to define a func with an argument which can take n number of keyword arguments.

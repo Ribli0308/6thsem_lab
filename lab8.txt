@@ -1,0 +1,71 @@
+inheritance:
+class Name:
+
+class newName(parent class name):
+
+class A:
+ def func(self):
+  print("Class A")
+class B(A):
+ def func2(self):
+  print("class B")
+
+ob = B()
+ob.func()
+ob.func2()
+
+*overloading not supported [it will call the last function with same name]
+*if init method is specified twice the last method will be evoked
+*python supports  over riding concept.[derived function will be called]
+class A:
+ def display(self):
+  print("class A)
+class B(A):
+ def display(self):
+  print("class B)
+
+obj = B()
+B.display() [output: class B]
+
+*constructors in inheritance:
+class Addition:
+ def __init__(self, roll, name):
+  self.name = name
+  self.roll = roll
+ def display(self):
+  print(self.name)
+  print(self.roll)
+
+class Edu(Addition):
+ def __init__(self, roll, name, qualificatiion):
+  [using base class name and using super method]
+  Addition.__init__(self, roll, name) #super().__init__(roll, name)
+  self.qualification = qualification
+ def display2(self):
+  print("qualification:", self.qualification)
+
+obj = Edu(1034, "Ally", "Btech")
+obj.display()
+obj.display2()
+
+*issubclass(subclass, superclass)
+*isinstance(object, class)
+*data members can be made private by using double underscore
+class A:
+ __a = 20
+ def display(self):
+  print(A.__a)
+
+obj = A()
+obj.display()
+print('a:', obj.__a) #data member cannot be accessed
+
+*empty class and method[abstract method] can be created using pass.
+class A:
+ pass
+
+1. bank -> customer
+2. factory -> wholesale -> retailer
+3. university -> student <- school
+6. WAP class called inventory with attributes: item id, item name, stock count and price. Dfine suitable methods and constructors to perform the operationslike add item, upadte item, check item details etc.
+7. WAP class to check an instance belongs to a particular class or not and the class is subclass of another class or not.

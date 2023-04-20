@@ -1,0 +1,22 @@
+class test:
+ x = 5
+pl = test()
+print(pl.x)
+
+__init__: used for initialization purpose [variable]
+self: one extra parameter is provided by python in the function definititon 
+class person:
+ def __init__(self, name):
+  self.name = name
+ def myName(self):
+  print('My name is', self.name)
+p = person('Devshree')
+p.myName()
+1. wap class named as circle with attribute radius and two methods that will compute the area and perimeter of the circle.
+2. wap class named student with two instances student 1 and student2 declare suitable data members or member functions to display their values.
+3. wap class to find the 3 elements that sum = 0from a set or array of n real numbers.
+4. wap class to reverse a string word by word.
+5. wap class to implement pow[x,n].
+6. wap class to print all possible unique subsets from a set of integers.
+7. wap class called restaurant with attributes: menu items, book table, customer order and design suitable methods to perform: add items to the menue, make table reservations and also take order ad print all[use dict and lists to store the data].
+8. wap class called bank account with attributes: acc no, balance, cust name and methods: deposit, withdraw and check balance and print the values.
